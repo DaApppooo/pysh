@@ -110,7 +110,7 @@ import config
 import subprocess as subp
 from platform import system
 from os.path import isdir, isabs, isfile, islink, join, exists
-from collections import Callable
+from typing import Callable
 import hashlib
 from random import randint
 
